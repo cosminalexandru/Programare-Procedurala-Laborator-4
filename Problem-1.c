@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 /**
  * Enum
  */
@@ -40,13 +40,13 @@ Fields swap_order(Fields value, int type) {
     }
 }
 
-int main() {
-    Fields var, returned_var;
-    int aux_number;
-    printf("Insert number");
-    scanf("%d", &aux_number);
-    var.number = aux_number;
-    returned_var = swap_order(var, Decryption);
-    printf("Encrypted number is:%d", returned_var.number);
-
-}
+//int main() {
+////    Fields var, returned_var;
+////    int aux_number;
+////    printf("Insert number");
+////    scanf("%d", &aux_number);
+////    var.number = aux_number;
+////    returned_var = swap_order(var, Decryption);
+////    printf("Encrypted number is:%d", returned_var.number);
+//
+//}
