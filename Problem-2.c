@@ -1,5 +1,7 @@
 
 
+#include <stdio.h>
+#include <string.h>
 typedef struct {
     char address[100];
     int surface, rooms_number;
